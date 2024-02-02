@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+}
+.portofolio{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000;
+    color: azure;
+}
+.portofolio #box1{
+    height: 18vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 80px;
+}
+.portofolio #box1 #portf{
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+.portofolio #box1 #work{
+    color: orangered;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.portofolio #box1 #para{
+    padding: 10px 30px;
+    font-weight: bolder;
+    font-size: 14px;
+    color: #fff;
+}
+.portofolio #box2{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portofolio #box2 ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    border: none;
+    background-color: transparent;
+    height: 6vh;
+}
+.portofolio #box2 ul li{
+    padding: 0px 20px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.portofolio #box2 ul li a{
+    text-decoration: none;
+    color: grey;
+}
+.portofolio #box2 ul li #all{
+    color: orangered;
+}
+.portofolio #box2 ul li a:hover{
+    color: orangered;
+}
+.portofolio #box3{
+    height: 50vh;
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #0c0c0d;
+    border-radius: 10px;
+    /* border: 1px solid; */
+}
+
+.portofolio #box3 #web-development{
+    height: 40vh;
+    width: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    flex-direction: column;
+    border: none;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 10px;
+    background-color: black;
+}
+.portofolio #box3 p{
+    font-weight: bolder;
+    font-size: 25px;
+    color: #b1afae;
+}
+.portofolio #box3 video{
+    margin-top: -20px;
+    transition: .7s ease-in-out;
+    border-radius: 10px;
+}
+
+.portofolio #box3 #cpp-development{
+    height: 40vh;
+    width: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    flex-direction: column;
+    border: none;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.portofolio #box3 #java-development{
+    height: 40vh;
+    width: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    flex-direction: column;
+    border: none;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 10px;
+    background-color: black;
+}
+.portofolio #box4{
+    height: 8vh;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portofolio #box4 #btn{
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid orangered;
+    background-color: black;
+    color: orangered;
+    cursor: pointer;
+    padding: 15px 30px;
+    transition: .4s;
+}
+.portofolio #box4 #btn:hover{
+    background-color: orangered;
+    color: white;
+    border: 1px solid white;
+    transition: .4s;
+}

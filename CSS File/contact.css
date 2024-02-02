@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat' sans-serif;
+}
+.contact {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #030e0d;
+    color: white;
+}
+.contact .box1{
+    height: 20vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 80px;
+    /* border: 1px solid; */
+}
+.contact .box1 #contact{
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+.contact .box1 #touch{
+    color: orangered;
+font-size: 30px;
+font-weight: 800;
+}
+.contact .box1 #para{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px 20px;
+}
+.contact #box-2{
+    height: 60vh;
+    width: 70%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #000000;
+    border-radius: 10px;
+}
+.contact #box-2 #box-2-box-1{
+    height: 55vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    /* border: 1px solid; */
+}
+.contact #box-2 #box-2-box-1 #say{
+    font-size: 28px;
+    font-weight: 800;
+    color: orangered;
+}
+.contact #box-2 #box-2-box-1 input{
+    height: 6vh;
+    width: 93%;
+    border-radius: 10px;
+    padding: 0px 18px;
+    outline: none;
+    border: 2px solid orangered;
+    font-weight: bold;
+}
+.contact #box-2 #box-2-box-1 textarea{
+    outline: none;
+    border: 2px solid orangered;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 18px;
+}
+.contact #box-2 #box-2-box-1 #btn{
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    outline: none;
+    background-color: orangered;
+    color: white;
+    transition: .4s;
+}
+.contact #box-2 #box-2-box-1 #btn:hover{
+    cursor: pointer;
+    color: orangered;
+    background-color: white;
+    transition: .4s;
+    border: 2px solid orangered;
+}
+.contact #box-2 #box-2-box-2{
+    height: 55vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+}
+.contact #box-2 #box-2-box-2 #location{
+     height: 10vh;
+     width: 80%;
+     display: flex;
+     justify-content: start;
+     align-items: center;
+     margin: 0px 0px 20px 0px;
+     /* border: 1px solid; */
+}
+.contact #box-2 #box-2-box-2 #location i{
+    font-size: 30px;
+    color: orangered;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 50px;
+}
+.contact #box-2 #box-2-box-2 #Phone-num{
+    height: 10vh;
+    width: 80%;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    margin: 0px 0px 20px 0px;
+    /* border: 1px solid; */
+}
+.contact #box-2 #box-2-box-2 #Phone-num i{
+    font-size: 30px;
+    color: orangered;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 50px;
+}
+.contact #box-2 #box-2-box-2 #email-address{
+    height: 10vh;
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0px 0px 20px 0px;
+    /* border: 1px solid; */
+}
+.contact #box-2 #box-2-box-2 #email-address i{
+    font-size: 30px;
+    color: orangered;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 50px;
+}
+
+/* ================achievement style start================ */
+.achievement{
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   background-color: black;
+}
+.achievement center{
+    font-weight: bolder;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: orangered;
+    text-shadow: 2px 1px 2px white;
+    border: 1px solid orangered;
+    padding: 10px 20px;
+    background-color: black;
+    box-shadow: 0px 0px 2px 1px;
+}
+.achievement #box2{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.achievement #box2 marquee img{
+    margin: 0px 10px;
+    height: 40vh;
+    width: 50vh;
+    border: 2px solid white;
+}
+
+/* ====================map style start===================== */
+
+.map{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.map iframe{
+    height: 100%;
+    width: 90%;
+}
+
