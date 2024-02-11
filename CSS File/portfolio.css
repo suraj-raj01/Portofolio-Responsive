@@ -53,7 +53,7 @@ html{
         display: block;
     }
     .portofolio #box1{
-        height: 25vh;
+        height: 20vh;
         width: 100%;
     }
     .portofolio #box1 #portf{
@@ -135,7 +135,7 @@ html{
     width: 30%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
     border: none;
     box-shadow: 0px 0px 5px 0px;
@@ -166,7 +166,7 @@ html{
     width: 30%;
     display: flex;
     align-items: center;
-    justify-content: stretch;
+    justify-content: space-around;
     flex-direction: column;
     border: none;
     box-shadow: 0px 0px 5px 0px;
@@ -186,7 +186,7 @@ html{
     width: 30%;
     display: flex;
     align-items: center;
-    justify-content: stretch;
+    justify-content: space-around;
     flex-direction: column;
     border: none;
     box-shadow: 0px 0px 5px 0px;
