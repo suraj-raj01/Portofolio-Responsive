@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat' sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* ===========================navbar start============================= */
+.navbar {
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid transparent;
+    border-bottom-color: #24315E;
+    position: sticky;
+    z-index: 10;
+    top: 0px;
+    background-color: ghostwhite;
+    color: #24315E;
+    overflow-x: hidden;
+}
+
+/* ==============style on unordered lis================== */
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #24315E;
+    font-weight: bold;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.navbar a:hover{
+    color: orangered;
+    transition: .5s;
+}
+.navbar #mid li{
+    display: flex;
+    padding: 0px 20px;
+}
+.navbar #end a{
+    border: 1px solid #24315E;
+    background-color: #24315E;
+    color: white;
+    padding: 15px 25px;
+}
+.navbar #end a:hover{
+   background-color: white;
+   color: #24315E;
+}
+
+@media(max-width:430px)
+{
+    .navbar{
+        height: 8vh;
+    }
+    .navbar a{
+        font-size: 10px;
+    }
+    .navbar img{
+        width: 30px;
+    }
+    .navbar #mid li{
+        font-size: 10px;
+        padding: 0px 4px;
+    }
+    .navbar #end a{
+        font-size: 8px;
+        padding: 7px 5px;
+    }
+}
+
+
+
+/* ================================navbar end================================== */
+
+/* ============style chat box================ */
+
+.chat {
+    height: 12vh;
+    width: 10vh;
+    position: fixed;
+    top: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    left: 1vh;
+    z-index: 3;
+}
+.chat a img{
+    box-shadow: 0px 0px 10px #24315E;
+    border-radius: 50px;
+}
+.chat #chat {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #24315E;
+}
+
+/* =============end style chat box================== */
+
+
+/* ================div hero tag======================== */
+.hero {
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-image: url('https://marketifythemes.net/html/trito/img/hero/1.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: black;
+}
+
+/* ==============box1 height width=============== */
+.hero #box1 {
+    margin-left: 10%;
+    height: 75%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+    background-color: #ffffff0c;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px #fff;
+    color: white;
+    overflow-x: hidden;
+}
+
+.hero #box1 #box-1 {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    /* border: 1px solid; */
+}
+
+.hero #box1 #box-1 #greet {
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 2px;
+    /* color: #24315E; */
+}
+
+.hero #box1 #box-1 #name {
+    font-weight: 800;
+    font-size: 50px;
+    /* color: #969697; */
+}
+
+.hero #box1 #box-1 #name span{
+    font-size: 50px;
+    padding: 0px 0px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    color: orangered;
+}
+.hero #box1 #box-1 #name span:hover{
+    text-shadow: 0px 0px 40px white;
+    color: white;
+}
+.hero #box1 #box-1 #email a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+}
+
+.hero #box1 #box-1 span {
+    padding: 20px 27px;
+    background-color: transparent;
+    border: 1px solid;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.hero #box1 #box-1 span:hover{
+    background-color: #24315E;
+    color: white;
+    border: 1px solid #24315E;
+    transition: .5s;
+}
+
+.hero #box1 #box-1 p {
+    font-weight: 800;
+    line-height: 15px;
+    padding: 5px 15px;
+}
+
+/* =========box1 fo box-1 styling============== */
+
+.hero #box1 #box-1 #btn {
+    margin-left: 15px;
+    padding: 20px 59px;
+    font-size: 18px;
+    outline: none;
+    font-weight: 700;
+    color: white;
+    background-color: transparent;
+    border: 1px solid;
+}
+
+/* =========hover effect of button============= */
+.hero #box1 #box-1 #btn:hover {
+    cursor: pointer;
+    transition: .5s;
+    background-color: #24315E;
+    color: white;
+    border: 1px solid #24315E;
+}
+
+@media(max-width:430px){
+    .hero{
+        height: 100vh;
+        display: block;
+    }
+    .hero #box1{
+        margin: 0 auto;
+        height: 35%;
+        width: 80%;
+        box-shadow: 0px 0px 10px gray;
+    }
+    .hero #box1 #box-1 #greet {
+        font-weight: 800;
+        font-size: 15px;
+    }
+    
+    .hero #box1 #box-1 #name {
+        font-weight: 800;
+        font-size: 20px;
+        /* color: #969697; */
+    }
+    .hero #box1 #box-1 #name span{
+        font-size: 20px;
+        color: orangered;
+    }
+    .hero #box1 #box-1 #email a {
+        font-size: 12px;;
+    }
+    .hero #box1 #box-1 #btn {
+        margin-left: 15px;
+        padding: 10px 34px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .hero #box1 #box-1 span{
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+    .chat{
+        width: 40px;
+        height: 40px;
+        top: 610px;
+    }
+    .chat img{
+        height: 40px;
+        width: 40px;
+    }
+    .chat #chat{
+        font-size: 16px;
+        color: orange;
+    }
+}
+
+
+/* ========box2 height width================= */
+.hero #box2 {
+    height: 88vh;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+/* =============box2 of box-1 height and width=============== */
+.hero #box2 #box2-box-1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid #24315E; */
+    border-radius: 0px;
+    /* box-shadow: 0px 0px 10px 1px #24315E; */
+}
+
+.hero #box2 #box2-box-1 img {
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    filter: drop-shadow(0px 0px 20px #616161);
+    /* filter: contrast(10); */
+    /* filter: hue-rotate(130deg); */
+}
+
+/* ================box2 of box-2 height width================== */
+.hero #box2 #box2-box-2 {
+    height: 50%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    /* box-shadow: 0px 1px 10px 1px white; */
+    border-radius: 10px;
+}
+
+.hero #box2 #box2-box-2 a {
+    padding: 5px;
+    font-size: 30px;
+}
+
+/* ============box2 of box-2 icons================ */
+/* ============box2 of box-2 icons================ */
+#box2 #box2-box-2 i {
+    color: white;
+    padding: 5px 8px;
+}
+
+#box2 #box2-box-2 i:hover {
+    text-shadow: 0px 1px 20px white;
+    cursor: pointer;
+}
+hr{
+    margin: 0 auto;
+}
+
+@media(max-width:430px){
+    .hero #box2 {
+        width: 100%;
+        height: 60%;
+    }
+    .hero #box2 #box2-box-1 {
+        height: 80%;
+        width: 100%;
+    }
+    .hero #box2 #box2-box-1 img{
+        height: 380px;
+        width: 340px;
+        filter: none;
+        border-radius: 100px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .hero #box2 #box2-box-2 {
+        width: 10%;
+    }
+    .hero #box2 #box2-box-2 a {
+        padding: 2px;
+        font-size: 20px;
+    }
+    .experience{ 
+       display: none;
+    
+    }
+}
+
+
+
+
+
+
+
+
