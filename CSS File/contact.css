@@ -12,7 +12,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     background-color: white;
     color: #24315E;
@@ -24,7 +24,7 @@
     width: 60%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding: 0px 40px;
     overflow-x: hidden;
@@ -39,15 +39,14 @@
 
 .contact .box1 #touch {
     color: #24315E;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 800;
 }
 
 .contact .box1 #para {
-    text-align: center;
     font-size: 16px;
     font-weight: 500;
-    padding: 0px 20px;
+    padding: 0px 30px;
 }
 
 @media(max-width:430px)
@@ -100,7 +99,7 @@
     color: white;
 }
 ::placeholder{
-    color: white;
+    color: gray;
 }
 .contact #box-2 #box-2-box-1 input {
     height: 6vh;
@@ -315,11 +314,11 @@
 @media(max-width:430px)
 {
     .achievement {
-        height: 55vh;
+        height: 50vh;
         display: block;
     }
     .achievement center {
-        font-size: 18px;
+        font-size: 16px;
     }
     
     .achievement #box2 {
@@ -348,7 +347,7 @@
 
 .map iframe {
     height: 100%;
-    width: 98%;
+    width: 100%;
 }
 
 @media(max-width:430px)
@@ -359,5 +358,6 @@
     }
     iframe{
         width: 100%;
+        border: 2px solid;
     }
 }
