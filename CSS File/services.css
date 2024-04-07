@@ -106,7 +106,7 @@ section .box1 #para {
         display: block;
     }
     section .box1 {
-        height: 25vh;
+        height: 20vh;
         width: 100%;
     }
     section .box1 #services {
