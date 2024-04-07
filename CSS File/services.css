@@ -11,7 +11,7 @@ section {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     background-color: whitesmoke;
     color: #24315E;
